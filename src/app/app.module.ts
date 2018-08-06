@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 /**
  * Modulos Custom
  */
@@ -16,6 +17,7 @@ import { ItemComponent } from './pages/item/item.component';
 
 
 @NgModule({
+  //Componentes
   declarations: [
     AppComponent,
     HeaderComponent,
@@ -24,9 +26,11 @@ import { ItemComponent } from './pages/item/item.component';
     AboutComponent,
     ItemComponent
   ],
+  //Modulos
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
