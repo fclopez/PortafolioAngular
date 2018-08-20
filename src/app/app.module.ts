@@ -14,6 +14,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
+import { LoaderComponent } from './shared/loader/loader.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { ItemComponent } from './pages/item/item.component';
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
-    ItemComponent
+    ItemComponent,
+    LoaderComponent
   ],
   //Modulos
   imports: [
